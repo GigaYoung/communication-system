@@ -1,0 +1,9 @@
+{
+    "matlab.matlabpath": "V:\\Softwares\\Matlab\\R2018b\\bin\\matlab.exe",
+    "matlab.mlintpath": "V:\\Softwares\\Matlab\\R2018b\\bin\\win64\\mlint.exe",
+    "files.associations": {
+        "*.m": "matlab"
+    },
+    "files.autoGuessEncoding": true,
+    "matlab.linterEncoding" : "gb2312"
+}
