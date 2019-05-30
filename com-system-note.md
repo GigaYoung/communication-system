@@ -10,11 +10,11 @@
 
 #### the components that compose a system
 
-![Snipaste_2019-04-04_08-31-02](C:\Users\master\Desktop\裁剪图片\Snipaste_2019-04-04_08-31-02.png)
+![Snipaste_2019-04-04_08-31-02](doc\Snipaste_2019-04-04_08-31-02.png)
 
 to make thing easier, we focus on a simple one first
 
-![Snipaste_2019-04-04_08-32-43](C:\Users\master\Desktop\裁剪图片\Snipaste_2019-04-04_08-32-43.png)
+![Snipaste_2019-04-04_08-32-43](doc\Snipaste_2019-04-04_08-32-43.png)
 
 - the source and dest describe information using bits, bits are kind of the state.
 - the transmitter and receiver render bits with phisical phenomenone like waveforms
@@ -24,7 +24,7 @@ to make thing easier, we focus on a simple one first
 
 a interesting idea is that, we could encode it with a tree
 
-![Snipaste_2019-04-04_08-38-38](C:\Users\master\Desktop\裁剪图片\Snipaste_2019-04-04_08-38-38.png)
+![Snipaste_2019-04-04_08-38-38](doc\Snipaste_2019-04-04_08-38-38.png)
 
 #### continuous and descrete time signals
 
@@ -32,7 +32,7 @@ we have already know, i don't want to talk anymore.
 
 #### decrise time bit
 
-![Snipaste_2019-04-04_08-49-23](C:\Users\master\Desktop\裁剪图片\Snipaste_2019-04-04_08-49-23.png)
+![Snipaste_2019-04-04_08-49-23](doc\Snipaste_2019-04-04_08-49-23.png)
 
 SPB means sample per bit, which means how many sample to represent a bit
 
@@ -42,11 +42,11 @@ $bittime=SPB \cdot T_s$ and $bitrate=\frac{1}{bit-time}$
 
 here are diffent ways
 
-![Snipaste_2019-04-04_08-55-25](C:\Users\master\Desktop\裁剪图片\Snipaste_2019-04-04_08-55-25.png)
+![Snipaste_2019-04-04_08-55-25](doc\Snipaste_2019-04-04_08-55-25.png)
 
 and we often present it using the step function
 
-![Snipaste_2019-04-04_08-57-34](C:\Users\master\Desktop\裁剪图片\Snipaste_2019-04-04_08-57-34.png)
+![Snipaste_2019-04-04_08-57-34](doc\Snipaste_2019-04-04_08-57-34.png)
 
 - if the bit changes from 0 to 1 at sample D, add $u(n-D)$
 - if the bit changes from 1 to 0 at sample D, subtract $u(n-D)$
@@ -54,7 +54,7 @@ and we often present it using the step function
 
 #### dicrese time model
 
-![Snipaste_2019-04-04_09-03-15](C:\Users\master\Desktop\裁剪图片\Snipaste_2019-04-04_09-03-15.png)
+![Snipaste_2019-04-04_09-03-15](doc\Snipaste_2019-04-04_09-03-15.png)
 
 our model: input is $x(n)=u(n)-u(n-5)$ and out put is $y_m(n)=(1-a^{n+1})u(n)+...$
 
